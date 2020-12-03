@@ -75,8 +75,6 @@ app.use(errorHandler);
 
 const PORT = process.env.PORT || 3000;
 
-// const password = 'HIbsNe0SM2q6QC0x';
-
 async function start() {
   try {
     await mongoose.connect(keys.MONGODB_URI, {
